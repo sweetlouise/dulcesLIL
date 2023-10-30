@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: $colorBlancoGrisaceo;
+    }
+
+    ol,
+    ul {
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    iframe {
+        border-style: solid;
+        border-color: $colorCeleste;
+        }
+
+        h1 {
+            font-family: $fuenteTitulo;
+            color: $colorGrisBerenjena;
+                font-size: 4em;
+                text-align: center;
+                padding: 40px 30px;
+            }
+
+            h2 {
+                font-size: 2em;
+                font-family: $fuenteTitulo;
+                color: $colorCeleste;
+                text-align: center;
+
+
+            }
+
+            p {
+                font-family: $fuentePrincipal;
+                text-align: center;
+                font-size: 1.5em;
+                color: $colorGrisBerenjena;
+
+            }
+
+            a {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: $colorCelestePastel;
+            }
